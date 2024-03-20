@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalendarz Kwiatowy</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- нормалізатор -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Kalendarz Kwiatowy</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">O Nas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<section id="hero">
+  <div class="container text-center">
+    <h1 class="hero_name">Automatyczne Dostawy Kwiatów</h1>
+    <p class="lead">Zapomnij o ważnych datach. My pamiętamy za Ciebie!</p>
+    <a href="#" class="btn btn-primary btn-lg">Wyprobój serwis</a>
+  </div>
+</section>
+
+<section id="features">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-4">
+        <h3>Synchronizacja z Kalendarzami</h3>
+        <p>Łączymy się z Twoimi kalendarzami online, aby automatycznie importować ważne daty.</p>
+        <img class="phone_img" src="./img/phone.jpg" />
+      </div>
+
+
+      <div class="col-lg-4">
+        <h3>Personalizacja Dostawy</h3>
+        <p>Wybierz adresy dostawy i preferencje, aby zapewnić spersonalizowane doświadczenie.</p>
+        <img class="delivery_img" src="./img/delivery.jpg" />
+      </div>
+      <div class="col-lg-4">
+        <h3>Przypomnienia</h3>
+        <p>Otrzymuj powiadomienia przed ważnymi datami z propozycjami bukietów.</p>
+        <img class="notification_img" src="./img/notification.jpg" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="text-center py-4">
+  <p>&copy; 2024 Kalendarz Kwiatowy. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
